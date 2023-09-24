@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		38501B802ABFD9270048EBEE /* PluralizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38501B7F2ABFD9270048EBEE /* PluralizeApp.swift */; };
-		38501B822ABFD9270048EBEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38501B812ABFD9270048EBEE /* ContentView.swift */; };
+		38501B822ABFD9270048EBEE /* PluralizeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38501B812ABFD9270048EBEE /* PluralizeList.swift */; };
 		38501B842ABFD9280048EBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38501B832ABFD9280048EBEE /* Assets.xcassets */; };
 		38501B872ABFD9280048EBEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38501B862ABFD9280048EBEE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		38501B7C2ABFD9270048EBEE /* Pluralize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pluralize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38501B7F2ABFD9270048EBEE /* PluralizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizeApp.swift; sourceTree = "<group>"; };
-		38501B812ABFD9270048EBEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38501B812ABFD9270048EBEE /* PluralizeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizeList.swift; sourceTree = "<group>"; };
 		38501B832ABFD9280048EBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38501B862ABFD9280048EBEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				38501B7F2ABFD9270048EBEE /* PluralizeApp.swift */,
-				38501B812ABFD9270048EBEE /* ContentView.swift */,
+				38501B812ABFD9270048EBEE /* PluralizeList.swift */,
 				38501B832ABFD9280048EBEE /* Assets.xcassets */,
 				38501B852ABFD9280048EBEE /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38501B822ABFD9270048EBEE /* ContentView.swift in Sources */,
+				38501B822ABFD9270048EBEE /* PluralizeList.swift in Sources */,
 				38501B802ABFD9270048EBEE /* PluralizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
