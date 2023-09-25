@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Pluralize
+
+  Created by Adolpho Francisco Zimmermann Piazza on 24/09/23.
+  
+*/
+
+// App strings
+"pluralize_list_title" = "Pluralize";
+"check_developer_url" = "Check out \"Unlock the power of grammatical agreement\"";
+
+// List of words
+"dog" = "Dog";
+"person" = "Person";
+"bed" = "Bed";
+"car" = "Car";
+"egg" = "Egg";
+"trophy" = "Trophy";

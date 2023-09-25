@@ -11,6 +11,11 @@
 		38501B822ABFD9270048EBEE /* PluralizeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38501B812ABFD9270048EBEE /* PluralizeList.swift */; };
 		38501B842ABFD9280048EBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38501B832ABFD9280048EBEE /* Assets.xcassets */; };
 		38501B872ABFD9280048EBEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38501B862ABFD9280048EBEE /* Preview Assets.xcassets */; };
+		387E36792AC0FD7F00D072FE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 387E367B2AC0FD7F00D072FE /* Localizable.strings */; };
+		387E36822AC11EA800D072FE /* Strings+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E36812AC11EA800D072FE /* Strings+Ext.swift */; };
+		387E36842AC11ED000D072FE /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E36832AC11ED000D072FE /* Words.swift */; };
+		387E36862AC11F6200D072FE /* PluralizeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E36852AC11F6200D072FE /* PluralizeListViewModel.swift */; };
+		387E36882AC11FF600D072FE /* PluralizeListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E36872AC11FF600D072FE /* PluralizeListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		38501B812ABFD9270048EBEE /* PluralizeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizeList.swift; sourceTree = "<group>"; };
 		38501B832ABFD9280048EBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38501B862ABFD9280048EBEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		387E367A2AC0FD7F00D072FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		387E367C2AC0FDB400D072FE /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		387E36812AC11EA800D072FE /* Strings+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Ext.swift"; sourceTree = "<group>"; };
+		387E36832AC11ED000D072FE /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		387E36852AC11F6200D072FE /* PluralizeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizeListViewModel.swift; sourceTree = "<group>"; };
+		387E36872AC11FF600D072FE /* PluralizeListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizeListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,12 @@
 		38501B7E2ABFD9270048EBEE /* Pluralize */ = {
 			isa = PBXGroup;
 			children = (
+				387E36802AC11E8A00D072FE /* Extensions */,
+				387E367F2AC11E8400D072FE /* Model */,
+				387E367E2AC11E7300D072FE /* ViewModel */,
+				387E367D2AC11E6D00D072FE /* Views */,
 				38501B7F2ABFD9270048EBEE /* PluralizeApp.swift */,
-				38501B812ABFD9270048EBEE /* PluralizeList.swift */,
+				387E367B2AC0FD7F00D072FE /* Localizable.strings */,
 				38501B832ABFD9280048EBEE /* Assets.xcassets */,
 				38501B852ABFD9280048EBEE /* Preview Content */,
 			);
@@ -65,6 +80,39 @@
 				38501B862ABFD9280048EBEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		387E367D2AC11E6D00D072FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38501B812ABFD9270048EBEE /* PluralizeList.swift */,
+				387E36872AC11FF600D072FE /* PluralizeListRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		387E367E2AC11E7300D072FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				387E36852AC11F6200D072FE /* PluralizeListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		387E367F2AC11E8400D072FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				387E36832AC11ED000D072FE /* Words.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		387E36802AC11E8A00D072FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				387E36812AC11EA800D072FE /* Strings+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +157,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 38501B732ABFD9270048EBEE;
 			productRefGroup = 38501B7D2ABFD9270048EBEE /* Products */;
@@ -126,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38501B872ABFD9280048EBEE /* Preview Assets.xcassets in Resources */,
+				387E36792AC0FD7F00D072FE /* Localizable.strings in Resources */,
 				38501B842ABFD9280048EBEE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,17 +188,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				38501B822ABFD9270048EBEE /* PluralizeList.swift in Sources */,
+				387E36882AC11FF600D072FE /* PluralizeListRow.swift in Sources */,
+				387E36822AC11EA800D072FE /* Strings+Ext.swift in Sources */,
+				387E36862AC11F6200D072FE /* PluralizeListViewModel.swift in Sources */,
 				38501B802ABFD9270048EBEE /* PluralizeApp.swift in Sources */,
+				387E36842AC11ED000D072FE /* Words.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		387E367B2AC0FD7F00D072FE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387E367A2AC0FD7F00D072FE /* en */,
+				387E367C2AC0FDB400D072FE /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38501B882ABFD9280048EBEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -209,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
