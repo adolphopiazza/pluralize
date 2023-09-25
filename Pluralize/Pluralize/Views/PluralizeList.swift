@@ -15,7 +15,7 @@ struct PluralizeList: View {
         NavigationStack {
             List(viewModel.words) { word in
                 PluralizeListRow(word: word)
-                
+                    .alignmentGuide(.listRowSeparatorLeading, computeValue: {_ in return 0})
             }
             .navigationTitle("pluralize_list_title".i18n)
             .toolbar {

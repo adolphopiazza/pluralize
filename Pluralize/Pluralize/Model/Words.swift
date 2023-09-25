@@ -22,6 +22,10 @@ extension Words {
                                   .init(title: "bed".i18n),
                                   .init(title: "car".i18n),
                                   .init(title: "egg".i18n),
-                                  .init(title: "trophy".i18n)]
+                                  .init(title: "trophy".i18n),
+                                  .init(title: "ring".i18n),
+                                  .init(title: "step".i18n),
+                                  .init(title: "hat".i18n),
+                                  .init(title: "citizen".i18n)]
     
 }
