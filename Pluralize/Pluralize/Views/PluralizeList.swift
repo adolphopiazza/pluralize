@@ -17,13 +17,13 @@ struct PluralizeList: View {
                 PluralizeListRow(word: word)
                     .alignmentGuide(.listRowSeparatorLeading, computeValue: {_ in return 0})
             }
-            .navigationTitle("pluralize_list_title".i18n)
+            .navigationTitle(viewModel.navigationTitle)
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
                     HStack(spacing: 20) {
-                        Text("check_developer_url".i18n)
+                        Text(viewModel.checkDeveloperURL)
                         
-                        Image(systemName: "arrow.up.right.circle")
+                        Image.Pluralize.arrowUpRightCircle
                     }
                     .fixedSize(horizontal: false, vertical: true)
                     .onTapGesture {

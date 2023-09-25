@@ -16,6 +16,7 @@
 		387E36842AC11ED000D072FE /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E36832AC11ED000D072FE /* Words.swift */; };
 		387E36862AC11F6200D072FE /* PluralizeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E36852AC11F6200D072FE /* PluralizeListViewModel.swift */; };
 		387E36882AC11FF600D072FE /* PluralizeListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E36872AC11FF600D072FE /* PluralizeListRow.swift */; };
+		389BFEA32AC20E1A00FE6FE5 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389BFEA22AC20E1A00FE6FE5 /* Image+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		387E36832AC11ED000D072FE /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		387E36852AC11F6200D072FE /* PluralizeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizeListViewModel.swift; sourceTree = "<group>"; };
 		387E36872AC11FF600D072FE /* PluralizeListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizeListRow.swift; sourceTree = "<group>"; };
+		389BFEA22AC20E1A00FE6FE5 /* Image+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				387E36812AC11EA800D072FE /* Strings+Ext.swift */,
+				389BFEA22AC20E1A00FE6FE5 /* Image+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				387E36882AC11FF600D072FE /* PluralizeListRow.swift in Sources */,
 				387E36822AC11EA800D072FE /* Strings+Ext.swift in Sources */,
 				387E36862AC11F6200D072FE /* PluralizeListViewModel.swift in Sources */,
+				389BFEA32AC20E1A00FE6FE5 /* Image+Ext.swift in Sources */,
 				38501B802ABFD9270048EBEE /* PluralizeApp.swift in Sources */,
 				387E36842AC11ED000D072FE /* Words.swift in Sources */,
 			);

@@ -16,7 +16,7 @@ struct PluralizeListRow: View {
             Button {
                 word.count -= 1
             } label: {
-                Image(systemName: "minus")
+                Image.Pluralize.minus
             }
             .buttonStyle(.borderless)
             .disabled(word.count <= 0)
@@ -30,7 +30,7 @@ struct PluralizeListRow: View {
             Button {
                 word.count += 1
             } label: {
-                Image(systemName: "plus")
+                Image.Pluralize.plus
             }
             .buttonStyle(.borderless)
         }
@@ -41,15 +41,27 @@ struct PluralizeListRow: View {
 struct PluralizeListRow_Previews: PreviewProvider {
     
     struct Container: View {
-        @State private var word: Words = Words(title: "egg")
+        @State private var word: Words = Words(title: "egg".i18n)
         
         var body: some View {
-            PluralizeListRow(word: word)
+            NavigationStack {
+                List {
+                    PluralizeListRow(word: word)
+                }
+                .navigationTitle("pluralize_list_title".i18n)
+            }
+            .tint(.orange)
         }
     }
     
     static var previews: some View {
         Container()
+            .previewDisplayName("Light Mode")
+            .preferredColorScheme(.light)
+        
+        Container()
+            .previewDisplayName("Dark Mode")
+            .preferredColorScheme(.dark)
     }
     
 }
